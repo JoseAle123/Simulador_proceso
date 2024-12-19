@@ -106,10 +106,10 @@ class GanttVisualizer(QWidget):
         self.view_sjf = QGraphicsView(self.scene_sjf)
         self.view_cpu_mastro = QGraphicsView(self.scene_cpu_mastro)
 
-        self.label_fcfs = QLabel("FCFS")
-        self.label_rr = QLabel("Round Robin")
-        self.label_sjf = QLabel("Shortest job First")
-        self.label_cpu_mastro = QLabel("CPU Mastro")
+        self.label_fcfs = QLabel("CPU-1 con FCFS")
+        self.label_rr = QLabel("CPU-2 con Round Robin")
+        self.label_sjf = QLabel("CPU- 3 con Shortest job First")
+        self.label_cpu_mastro = QLabel("CPU Maestro")
 
         self.layout = QVBoxLayout()
         self.layout_fcfs = QVBoxLayout()
